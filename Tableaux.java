@@ -39,4 +39,17 @@ public class Tableaux {
                 permute(tab, i, imin);
         }
     }
+
+    public static void trierDécroissantSSS(int[] tab){
+        int imin;
+        for (int i=0; i<tab.length-1; i++){
+            imin = i;
+            for (int j=i+1; j>tab.length; j++){
+                if (tab[j] < tab[imin])
+                    imin = j;
+            }
+            if (imin != i)
+                permute(tab, i, imin);
+        }
+    }
 }
