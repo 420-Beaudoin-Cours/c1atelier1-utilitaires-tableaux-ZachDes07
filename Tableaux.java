@@ -57,17 +57,12 @@ public class Tableaux {
         }
     }
 
-    public static void print(){
-        int[] tab = {5, 4, 20, 50, 10};
+    public static void print(int[]tab){
+        System.out.println(tab);
     }
 
-    public static void maximum(){
-        int[] tab = {5, 4, 20, 50, 10};
-        int i = 0;
-        boolean trouve = false;
+//    public static int maximum(int[]tab){
+//
+//    }
 
-        while(i < tab.length && !trouve){
-            if
-        }
-    }
 }
