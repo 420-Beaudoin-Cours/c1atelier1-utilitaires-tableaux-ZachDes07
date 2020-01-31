@@ -57,12 +57,12 @@ public class Tableaux {
         }
     }
 
-    public static void print(int[]tab){
+    public static void print(int[] tab){
         System.out.println(tab);
     }
 
-//    public static int maximum(int[]tab){
-//
-//    }
+    public static int maximum(int[] tab){
+
+    }
 
 }
