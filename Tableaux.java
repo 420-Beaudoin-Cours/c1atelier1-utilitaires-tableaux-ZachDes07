@@ -1,3 +1,7 @@
+package com.company;
+
+import org.w3c.dom.ls.LSOutput;
+
 /**
  * @author France Beaudoin Zachary
  */
@@ -50,6 +54,20 @@ public class Tableaux {
             }
             if (imin != i)
                 permute(tab, i, imin);
+        }
+    }
+
+    public static void print(){
+        int[] tab = {5, 4, 20, 50, 10};
+    }
+
+    public static void maximum(){
+        int[] tab = {5, 4, 20, 50, 10};
+        int i = 0;
+        boolean trouve = false;
+
+        while(i < tab.length && !trouve){
+            if
         }
     }
 }
