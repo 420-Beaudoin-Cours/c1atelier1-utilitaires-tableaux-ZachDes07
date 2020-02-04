@@ -61,8 +61,16 @@ public class Tableaux {
         System.out.println(tab);
     }
 
-    public static int maximum(int[] tab){
+    public static double moyenne(int[] tab){
+        int somme = 0;
+        double moyenne = 0;
 
+        for(int i = 0; i < tab.length; i++)
+            somme = somme + tab[i];
+
+        moyenne = somme / tab.length;
+
+        return moyenne;
     }
 
 }
